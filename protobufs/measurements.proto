@@ -1,0 +1,14 @@
+package domain;
+
+option java_package = "com.timmattison.pitfalls.domain";
+option java_outer_classname = "MeasurementsProtos";
+
+message Medical {
+    required int64 weightInGrams = 1;
+    required int64 heightInMillimeters = 2;
+}
+
+message Astronomical {
+    required int64 id = 1;
+    required int64 sizeInAttoParsecs = 2;
+}
